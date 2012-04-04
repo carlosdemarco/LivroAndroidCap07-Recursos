@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<!-- Direito as cores -->
+	<TextView android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Texto azul e branco"
+		android:background="#0000ff"
+		android:textColor="#ffffff"
+		android:textStyle="bold"/>
+		
+	<!-- Utilizando @string/ e @drawable/ -->
+	<TextView android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/msg_verde_e_branco"
+		android:background="@color/verde"
+		android:textColor="@color/branco"
+		android:textStyle="bold"/>
+		
+	<!-- Utilizando @string/ e @style/ -->
+	<TextView android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/msg_vermelho_e_branco"
+		style="@style/estiloExemplo"/>
+</LinearLayout>

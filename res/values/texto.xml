@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="msg_verde_e_branco">Texto verde e branco - i18n</string>
+	<string name="msg_vermelho_e_branco">Texto vermelho e branco - i18n</string>
+	<string name="texto1">Texto campo 1 azul</string>
+</resources>
